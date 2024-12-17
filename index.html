@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Under Construction</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0; /* Light gray background */
+        }
+
+        .container {
+            text-align: center;
+            background-color: white; /* White container */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+
+        h1 {
+            color: #ff9800; /* Orange heading */
+            margin-bottom: 20px;
+        }
+
+        img {
+            max-width: 300px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #757575; /* Gray text */
+            margin-bottom: 10px;
+        }
+
+        .progress-bar {
+            width: 300px;
+            height: 20px;
+            background-color: #e0e0e0; /* Light gray bar background */
+            border-radius: 10px;
+            margin-bottom: 20px;
+            overflow: hidden; /* Hide overflowing progress */
+        }
+
+        .progress {
+            height: 100%;
+            background-color: #4caf50; /* Green progress */
+            width: 70%; /* Example progress */
+            border-radius: 10px;
+            animation: progress-animation 2s linear infinite alternate; /* Animate the progress */
+        }
+        @keyframes progress-animation {
+            0% { width: 50%; background-color: #4caf50;}
+            50% { width: 80%; background-color: #2196F3;}
+            100% { width: 60%; background-color: #f44336;}
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>DevScribe is under construction</h1>
+		<img src="https://i.giphy.com/cOFLK7ZbliXW21RfmE.webp" alt="Construction Worker">
+        <p>We're working hard to improve our site.</p>
+        <p>Please check back soon!</p>
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+        <p>Estimated Completion: Soon (ish)</p>
+    </div>
+</body>
+</html>
